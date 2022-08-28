@@ -1,0 +1,22 @@
+print ("Answer the following questions just write Yes or No \n")
+d = input ("Is 1000 equals to 10x100? ")
+score = 0
+total = 2
+if d == ("yes"):
+  print ("Your answer is correct.")
+  score =+1
+else:
+  print ("Your answer is incorrect.")
+
+
+d = input ("what is the best game on pc right now: ")
+if d == ("valorant"):
+  score =+1
+  print ("Your answer is correct.")
+else:
+  print ("Your answer is incorrect.")
+
+mark = (score/total) * 100
+print("mark: ", mark)
+print ("ba-bye bitch")
+  
